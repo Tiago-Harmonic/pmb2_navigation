@@ -14,9 +14,9 @@
 
   <build_depend condition="$PAL_DISTRO >= alum">pal_module_cmake</build_depend>
 
-  <!-- Removed until https://github.com/uos/sick_tim/pull/101 is merged-->
-  <exec_depend condition="$PAL_DISTRO > 0">sick_tim</exec_depend>
-  <exec_depend>laser_filters</exec_depend>
+  <exec_depend condition="$PAL_DISTRO >= alum">sick_tim</exec_depend>
+  <exec_depend condition="$PAL_DISTRO >= alum">laser_filters</exec_depend>
+  <exec_depend condition="$PAL_DISTRO >= alum">pal_nav2_bringup</exec_depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>

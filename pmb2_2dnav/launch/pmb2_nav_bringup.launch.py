@@ -77,13 +77,13 @@ def navigation_bringup(context, *args, **kwargs):
                     get_package_share_directory("pal_laser_filters"),
                     "launch",
                     "scan_filter_chain.launch.py",
-                )  
+                )
             ),
-        launch_arguments={
-            'use_sim_time': 'True'
-            }.items()
+            launch_arguments={
+                'use_sim_time': 'True'
+                }.items()
         )
-        
+
         nav_bringup_launch = IncludeLaunchDescription(
             PythonLaunchDescriptionSource(
                 os.path.join(
@@ -93,18 +93,18 @@ def navigation_bringup(context, *args, **kwargs):
                 )
             ),
             launch_arguments={
-            "params_pkg": "pmb2_2dnav",
-            "params_file": "pmb2_nav.yaml",
-            "robot_name": "pmb2",
-            "remappings_file": os.path.join(
-                get_package_share_directory("pmb2_2dnav"),
-                "params",
-                "pmb2_remappings_sim.yaml"),
-            "rviz": "true"
+                "params_pkg": "pmb2_2dnav",
+                "params_file": "pmb2_nav.yaml",
+                "robot_name": "pmb2",
+                "remappings_file": os.path.join(
+                    get_package_share_directory("pmb2_2dnav"),
+                    "params",
+                    "pmb2_remappings_sim.yaml"),
+                "rviz": "true"
 
             }.items(),
         )
-        
+
         slam_bringup_launch = IncludeLaunchDescription(
             PythonLaunchDescriptionSource(
                 os.path.join(
@@ -159,7 +159,7 @@ def generate_launch_description():
         "world_name", default_value="",
         description="Specify world name, we'll convert to full path"
     )
-    
+
     declare_slam_arg = DeclareLaunchArgument(
         "slam",
         default_value="False",

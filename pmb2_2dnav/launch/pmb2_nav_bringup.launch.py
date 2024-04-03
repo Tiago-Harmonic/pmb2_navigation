@@ -70,18 +70,21 @@ def navigation_bringup(context, *args, **kwargs):
         actions.append(rviz_bringup_launch)
     else:
         pal_nav2_bringup = get_package_share_directory("pal_nav2_bringup")
-
-        pal_laser_filters = IncludeLaunchDescription(
+        
+        laser_bringup_launch = IncludeLaunchDescription(
             PythonLaunchDescriptionSource(
                 os.path.join(
-                    get_package_share_directory("pal_laser_filters"),
+                    pal_nav2_bringup,
                     "launch",
-                    "scan_filter_chain.launch.py",
+                    "nav_bringup.launch.py",
                 )
             ),
             launch_arguments={
-                'use_sim_time': 'True'
-                }.items()
+                "params_pkg": "pmb2_laser_sensors",
+                "params_file": "laser_pipeline_sim_pmb2.yaml",
+                "robot_name": "pmb2",
+                "rviz": "False"
+            }.items(),
         )
 
         nav_bringup_launch = IncludeLaunchDescription(
@@ -139,7 +142,7 @@ def navigation_bringup(context, *args, **kwargs):
             condition=UnlessCondition(LaunchConfiguration('slam')),
         )
 
-        actions.append(pal_laser_filters)
+        actions.append(laser_bringup_launch)
         actions.append(nav_bringup_launch)
         actions.append(slam_bringup_launch)
         actions.append(loc_bringup_launch)
@@ -162,7 +165,7 @@ def generate_launch_description():
 
     declare_slam_arg = DeclareLaunchArgument(
         "slam",
-        default_value="False",
+        default_value="false",
         description="Whether or not you are using SLAM",
     )
 

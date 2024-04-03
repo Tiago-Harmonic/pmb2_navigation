@@ -70,7 +70,7 @@ def navigation_bringup(context, *args, **kwargs):
         actions.append(rviz_bringup_launch)
     else:
         pal_nav2_bringup = get_package_share_directory("pal_nav2_bringup")
-        
+
         laser_bringup_launch = IncludeLaunchDescription(
             PythonLaunchDescriptionSource(
                 os.path.join(

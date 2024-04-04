@@ -83,6 +83,10 @@ def navigation_bringup(context, *args, **kwargs):
                 "params_pkg": "pmb2_laser_sensors",
                 "params_file": "laser_pipeline_sim_pmb2.yaml",
                 "robot_name": "pmb2",
+                "remappings_file": os.path.join(
+                    get_package_share_directory("pmb2_2dnav"),
+                    "params",
+                    "pmb2_remappings_sim.yaml"),
                 "rviz": "False"
             }.items(),
         )
@@ -120,6 +124,10 @@ def navigation_bringup(context, *args, **kwargs):
                 "params_pkg": "pmb2_2dnav",
                 "params_file": "pmb2_slam.yaml",
                 "robot_name": "pmb2",
+                "remappings_file": os.path.join(
+                    get_package_share_directory("pmb2_2dnav"),
+                    "params",
+                    "pmb2_remappings_sim.yaml"),
                 "rviz": "False"
             }.items(),
             condition=IfCondition(LaunchConfiguration('slam')),
@@ -137,6 +145,10 @@ def navigation_bringup(context, *args, **kwargs):
                 "params_pkg": "pmb2_2dnav",
                 "params_file": "pmb2_loc.yaml",
                 "robot_name": "pmb2",
+                "remappings_file": os.path.join(
+                    get_package_share_directory("pmb2_2dnav"),
+                    "params",
+                    "pmb2_remappings_sim.yaml"),
                 "rviz": "False"
             }.items(),
             condition=UnlessCondition(LaunchConfiguration('slam')),
@@ -175,7 +187,7 @@ def generate_launch_description():
     ld = LaunchDescription()
     ld.add_action(declare_is_public_sim_arg)
     ld.add_action(declare_world_name_arg)
-    ld.add_action(navigation_bringup_launch)
     ld.add_action(declare_slam_arg)
+    ld.add_action(navigation_bringup_launch)
 
     return ld

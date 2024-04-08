@@ -53,6 +53,7 @@ def navigation_bringup(context, *args, **kwargs):
                 ),
                 "use_sim_time": "True",
             }.items(),
+            condition=IfCondition(is_public_sim),
         )
 
         rviz_bringup_launch = IncludeLaunchDescription(
@@ -64,6 +65,7 @@ def navigation_bringup(context, *args, **kwargs):
                     pmb2_2dnav, "config", "rviz", "navigation.rviz"
                 ),
             }.items(),
+            condition=IfCondition(is_public_sim),
         )
 
         actions.append(nav2_bringup_launch)
@@ -108,7 +110,6 @@ def navigation_bringup(context, *args, **kwargs):
                     "params",
                     "pmb2_remappings_sim.yaml"),
                 "rviz": "true"
-
             }.items(),
         )
 
@@ -177,7 +178,7 @@ def generate_launch_description():
 
     declare_slam_arg = DeclareLaunchArgument(
         "slam",
-        default_value="false",
+        default_value="False",
         description="Whether or not you are using SLAM",
     )
 

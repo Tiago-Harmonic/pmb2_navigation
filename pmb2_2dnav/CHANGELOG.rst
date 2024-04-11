@@ -2,6 +2,23 @@
 Changelog for package pmb2_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'feat/ros2-pipelines' into 'humble-devel'
+  Feat/ros2 pipelines
+  See merge request robots/pmb2_navigation!82
+* cosmetic and removed unused launch files laser
+* public sim launch change and renamed pipeline
+* fix public_sim condition
+* params laser pipeline and modified slam arg
+* linters
+* modified params
+* linters
+* navigation pipeline integration for private sim
+* fear navigation pipelines
+* navigation pipeline
+* Contributors: andreacapodacqua, antoniobrandi
+
 4.0.12 (2024-02-13)
 -------------------
 * Merge branch 'abr/fix/world-name' into 'humble-devel'

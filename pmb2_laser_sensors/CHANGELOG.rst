@@ -2,6 +2,20 @@
 Changelog for package pmb2_laser_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'feat/ros2-pipelines' into 'humble-devel'
+  Feat/ros2 pipelines
+  See merge request robots/pmb2_navigation!82
+* cosmetic and removed unused launch files laser
+* public sim launch change and renamed pipeline
+* fix dep
+* params laser pipeline and modified slam arg
+* modified params
+* fear navigation pipelines
+* navigation pipeline
+* Contributors: andreacapodacqua, antoniobrandi
+
 4.0.12 (2024-02-13)
 -------------------
 

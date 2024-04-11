@@ -123,7 +123,7 @@ def navigation_bringup(context, *args, **kwargs):
                     get_package_share_directory("pmb2_2dnav"),
                     "params",
                     "pmb2_remappings_sim.yaml"),
-                "rviz": "False"
+                "rviz": "false"
             }.items(),
         )
 
@@ -163,7 +163,7 @@ def navigation_bringup(context, *args, **kwargs):
                     get_package_share_directory("pmb2_2dnav"),
                     "params",
                     "pmb2_remappings_sim.yaml"),
-                "rviz": "False"
+                "rviz": "false"
             }.items(),
             condition=IfCondition(LaunchConfiguration("slam")),
         )
@@ -184,7 +184,7 @@ def navigation_bringup(context, *args, **kwargs):
                     get_package_share_directory("pmb2_2dnav"),
                     "params",
                     "pmb2_remappings_sim.yaml"),
-                "rviz": "False"
+                "rviz": "false"
             }.items(),
             condition=UnlessCondition(LaunchConfiguration("slam")),
         )
@@ -201,13 +201,13 @@ def generate_launch_description():
     """Launch Navigation common application Robot + Simulation."""
     declare_is_public_sim_arg = DeclareLaunchArgument(
         "is_public_sim",
-        default_value="False",
+        default_value="false",
         description="Whether or not you are using a public simulation",
     )
 
     declare_slam_arg = DeclareLaunchArgument(
         "slam",
-        default_value="False",
+        default_value="false",
         description="Whether or not you are using SLAM",
     )
 

@@ -2,8 +2,8 @@
 Changelog for package pmb2_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+4.0.13 (2024-04-11)
+-------------------
 * Merge branch 'feat/ros2-pipelines' into 'humble-devel'
   Feat/ros2 pipelines
   See merge request robots/pmb2_navigation!82

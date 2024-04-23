@@ -2,8 +2,8 @@
 Changelog for package pmb2_laser_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+4.0.14 (2024-04-23)
+-------------------
 * Merge branch 'feat/variables' into 'humble-devel'
   using variables for pipelines
   See merge request robots/pmb2_navigation!83

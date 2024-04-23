@@ -2,6 +2,17 @@
 Changelog for package pmb2_laser_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'feat/variables' into 'humble-devel'
+  using variables for pipelines
+  See merge request robots/pmb2_navigation!83
+* using variables in lifecycle manager
+* using new variables names
+* using variables
+* using variables for pipelines
+* Contributors: andreacapodacqua, josegarcia
+
 4.0.13 (2024-04-11)
 -------------------
 * Merge branch 'feat/ros2-pipelines' into 'humble-devel'

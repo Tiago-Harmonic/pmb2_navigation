@@ -13,7 +13,6 @@
   <buildtool_depend>ament_cmake_auto</buildtool_depend>
 
   <exec_depend>pmb2_2dnav</exec_depend>
-  <exec_depend>pmb2_maps</exec_depend>
   <exec_depend>pmb2_laser_sensors</exec_depend>
 
   <export>

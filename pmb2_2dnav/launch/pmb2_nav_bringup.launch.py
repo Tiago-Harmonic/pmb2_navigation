@@ -34,7 +34,7 @@ def navigation_bringup(context, *args, **kwargs):
 
     pal_nav2_bringup = get_package_share_directory("pal_nav2_bringup")
     pmb2_2dnav = get_package_share_directory("pmb2_2dnav")
-    pmb2_maps = get_package_share_directory("pmb2_maps")
+    pal_maps = get_package_share_directory("pal_maps")
     nav2_bringup = get_package_share_directory("nav2_bringup")
 
     if is_public_sim == "True" or is_public_sim == "true":
@@ -46,12 +46,6 @@ def navigation_bringup(context, *args, **kwargs):
             launch_arguments={
                 "params_file": os.path.join(
                     pmb2_2dnav, "params", "pmb2_nav_public_sim.yaml"
-                ),
-                "map": os.path.join(
-                    pmb2_maps,
-                    "configurations",
-                    world_name,
-                    "map.yaml",
                 ),
                 "use_sim_time": "True",
             }.items(),
@@ -79,7 +73,7 @@ def navigation_bringup(context, *args, **kwargs):
                     pmb2_2dnav, "params", "pmb2_nav_public_sim.yaml"
                 ),
                 "map": os.path.join(
-                    pmb2_maps,
+                    pal_maps,
                     "configurations",
                     world_name,
                     "map.yaml",

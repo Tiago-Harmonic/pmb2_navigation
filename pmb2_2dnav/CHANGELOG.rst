@@ -2,8 +2,8 @@
 Changelog for package pmb2_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+4.0.15 (2024-04-29)
+-------------------
 * Merge branch 'abr/feat/deprecate-maps' into 'humble-devel'
   deprecate pmb2_maps
   See merge request robots/pmb2_navigation!84

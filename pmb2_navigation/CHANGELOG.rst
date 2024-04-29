@@ -2,6 +2,14 @@
 Changelog for package pmb2_navigation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'abr/feat/deprecate-maps' into 'humble-devel'
+  deprecate pmb2_maps
+  See merge request robots/pmb2_navigation!84
+* deprecated pmb2_maps
+* Contributors: antoniobrandi
+
 4.0.14 (2024-04-23)
 -------------------
 

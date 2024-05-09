@@ -2,8 +2,8 @@
 Changelog for package pmb2_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+4.0.16 (2024-05-09)
+-------------------
 * Merge branch 'fix/aca/module' into 'humble-devel'
   moved module to 00 and fix pal module dep
   See merge request robots/pmb2_navigation!85

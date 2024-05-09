@@ -2,6 +2,14 @@
 Changelog for package pmb2_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'fix/aca/module' into 'humble-devel'
+  moved module to 00 and fix pal module dep
+  See merge request robots/pmb2_navigation!85
+* moved module to 00 and fix pal module dep
+* Contributors: andreacapodacqua
+
 4.0.15 (2024-04-29)
 -------------------
 * Merge branch 'abr/feat/deprecate-maps' into 'humble-devel'

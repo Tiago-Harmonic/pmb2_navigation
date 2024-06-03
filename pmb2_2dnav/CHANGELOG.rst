@@ -2,6 +2,9 @@
 Changelog for package pmb2_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 4.0.17 (2024-05-29)
 -------------------
 * Merge branch 'fix/aca/public-sim' into 'humble-devel'

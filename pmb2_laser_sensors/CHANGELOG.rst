@@ -2,6 +2,14 @@
 Changelog for package pmb2_laser_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'abr/fix/laser-footprint' into 'humble-devel'
+  Use circular footprint laser filter
+  See merge request robots/pmb2_navigation!89
+* Update pmb2_laser_sensors/params/laser_pipeline.yaml, pmb2_laser_sensors/params/laser_pipeline_w_composition.yaml
+* Contributors: antoniobrandi
+
 4.0.17 (2024-05-29)
 -------------------
 

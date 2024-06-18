@@ -2,8 +2,8 @@
 Changelog for package pmb2_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+4.0.19 (2024-06-18)
+-------------------
 * fix incorrect map path
 * Contributors: David Brown
 

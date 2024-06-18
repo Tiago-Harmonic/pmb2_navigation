@@ -2,6 +2,9 @@
 Changelog for package pmb2_laser_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+
 4.0.18 (2024-06-03)
 -------------------
 * Merge branch 'abr/fix/laser-footprint' into 'humble-devel'

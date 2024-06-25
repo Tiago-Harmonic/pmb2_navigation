@@ -2,8 +2,8 @@
 Changelog for package pmb2_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+4.0.20 (2024-06-25)
+-------------------
 * Merge branch 'abr/feat/rviz-nav' into 'humble-devel'
   move rviz in nav launch file
   See merge request robots/pmb2_navigation!92

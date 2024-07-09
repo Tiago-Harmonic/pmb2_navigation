@@ -2,8 +2,8 @@
 Changelog for package pmb2_laser_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+4.0.22 (2024-07-09)
+-------------------
 * Add warning for pal_module_cmake not found
 * Contributors: Noel Jimenez
 

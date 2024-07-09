@@ -2,6 +2,11 @@
 Changelog for package pmb2_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Add warning for pal_module_cmake not found
+* Contributors: Noel Jimenez
+
 4.0.21 (2024-07-01)
 -------------------
 * Merge branch 'abr/feat/advanced-navigation' into 'humble-devel'

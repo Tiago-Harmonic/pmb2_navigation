@@ -2,6 +2,14 @@
 Changelog for package pmb2_laser_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'feat/aca/pipeline-substitution' into 'humble-devel'
+  using variables laser pipeline
+  See merge request robots/pmb2_navigation!91
+* using variables laser pipeline
+* Contributors: andreacapodacqua
+
 4.0.22 (2024-07-09)
 -------------------
 * Add warning for pal_module_cmake not found

@@ -2,8 +2,8 @@
 Changelog for package pmb2_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+4.1.1 (2024-08-06)
+------------------
 * Merge branch 'abr/fix/public-sim' into 'humble-devel'
   fix public sim
   See merge request robots/pmb2_navigation!96

@@ -2,8 +2,8 @@
 Changelog for package pmb2_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+4.1.0 (2024-08-06)
+------------------
 * Merge branch 'air/unify_pkgs' into 'humble-devel'
   restructure pmb2 launch file
   See merge request robots/pmb2_navigation!95

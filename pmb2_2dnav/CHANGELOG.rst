@@ -2,6 +2,17 @@
 Changelog for package pmb2_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'air/unify_pkgs' into 'humble-devel'
+  restructure pmb2 launch file
+  See merge request robots/pmb2_navigation!95
+* Unify quotation marks
+* Unify quotation marks
+* add launch_pal dependency
+* restructure pmb2 launch file
+* Contributors: Aina, antoniobrandi
+
 4.0.23 (2024-07-12)
 -------------------
 * Merge branch 'feat/aca/pipeline-substitution' into 'humble-devel'

@@ -2,6 +2,14 @@
 Changelog for package pmb2_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'man/feat/docking' into 'humble-devel'
+  added docking link
+  See merge request robots/pmb2_navigation!97
+* added docking link
+* Contributors: josegarcia, martinaannicelli
+
 4.1.1 (2024-08-06)
 ------------------
 * Merge branch 'abr/fix/public-sim' into 'humble-devel'

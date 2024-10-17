@@ -2,6 +2,14 @@
 Changelog for package pmb2_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Merge branch 'man/feat/nav-rviz-config' into 'humble-devel'
+  added unless condition to rviz
+  See merge request robots/pmb2_navigation!100
+* added unless condition to rviz
+* Contributors: antoniobrandi, martinaannicelli
+
 4.2.0 (2024-09-03)
 ------------------
 * Merge branch 'man/feat/docking' into 'humble-devel'

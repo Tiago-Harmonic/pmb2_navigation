@@ -2,8 +2,8 @@
 Changelog for package pmb2_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+4.4.0 (2024-10-18)
+------------------
 * Merge branch 'man/feat/stress-tests' into 'humble-devel'
   stress test config
   See merge request robots/pmb2_navigation!98

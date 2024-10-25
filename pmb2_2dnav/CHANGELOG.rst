@@ -2,8 +2,8 @@
 Changelog for package pmb2_2dnav
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+4.5.0 (2024-10-25)
+------------------
 * Merge branch 'abr/fix/mppi' into 'humble-devel'
   Use mppi when composition
   See merge request robots/pmb2_navigation!102
